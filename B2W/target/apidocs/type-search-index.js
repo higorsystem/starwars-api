@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"model","l":"Planeta"},{"p":"dto","l":"PlanetaDto"},{"p":"parser","l":"PlanetaParser"},{"p":"application","l":"PlanetaService"},{"p":"<Unnamed>","l":"StarwarsApiApplication"},{"p":"<Unnamed>","l":"StarwarsConfiguration"}]

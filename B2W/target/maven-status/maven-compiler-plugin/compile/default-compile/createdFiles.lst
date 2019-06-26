@@ -1,0 +1,6 @@
+parser\PlanetaParser.class
+application\PlanetaService.class
+dto\PlanetaDto.class
+model\Planeta.class
+StarwarsApiApplication.class
+StarwarsConfiguration.class
