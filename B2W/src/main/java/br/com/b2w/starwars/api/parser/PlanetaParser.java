@@ -30,4 +30,18 @@ public class PlanetaParser {
 
         return planetas.stream().map(PlanetaParser::parser).collect(Collectors.toList());
     }
+
+    public static Planeta parser(PlanetaDto dto){
+        if (dto == null) return null;
+
+        var entidade = new Planeta(dto.getId(), dto.getNome(), dto.getClima(), dto.getTerreno(), dto.getQuantidadeAparicoes());
+        return entidade;
+    }
+
+    public static List<Planeta> parserDtos(List<PlanetaDto> dtos){
+        if (dtos == null)
+            return null;
+
+        return dtos.stream().map(PlanetaParser::parser).collect(Collectors.toList());
+    }
 }
