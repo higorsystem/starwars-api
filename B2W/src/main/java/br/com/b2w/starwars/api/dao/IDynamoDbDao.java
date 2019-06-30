@@ -4,9 +4,10 @@ import java.util.List;
 
 public interface IDynamoDbDao<T> {
     void criarTabela();
-    T buscarPorId(int id);
-    void deletarPorId(int id);
+    T buscarPorId(String id);
+    void deletarPorId(String id);
     void incluir(T objeto);
     List<T> retornarTodos();
+    T buscarPorNome(String nome);
     void deletarTabela();
 }

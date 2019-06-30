@@ -1,14 +1,14 @@
 package br.com.b2w.starwars.api.dto;
 
 public class PlanetaDto {
-  private Integer id;
+  private String id;
   private String nome;
   private String clima;
   private String terreno;
   private Integer QuantidadeAparicoes;
 
   public PlanetaDto(
-      Integer id, String nome, String clima, String terreno, Integer quantidadeAparicoes) {
+          String id, String nome, String clima, String terreno, Integer quantidadeAparicoes) {
     this.id = id;
     this.nome = nome;
     this.clima = clima;
@@ -19,11 +19,11 @@ public class PlanetaDto {
   public PlanetaDto(){
   }
 
-  public Integer getId() {
+  public String getId() {
     return id;
   }
 
-  public void setId(Integer id) {
+  public void setId(String id) {
     this.id = id;
   }
 
