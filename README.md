@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/higorsystem/starwars-api.svg?branch=master)](https://travis-ci.org/higorsystem/starwars-api)
+
 # API Starwars
 
 > A API contempla as seguintes funcionalidades: 
